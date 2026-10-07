@@ -9,3 +9,4 @@ print(name_short)
 
 print(width+height)
 print(name_short+name_long)
+print(name_short + str(width))
