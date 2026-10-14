@@ -4,7 +4,7 @@ fixed_delivery_cost=5.50
 unit_delivery_cost=0.55
 order_qty=350
 
-calculate_delivery_cost=fixed_delivery_cost+(unit_delivery_cost*order_qty)
+calculate_delivery_cost=fixed_delivery_cost+(unit_delivery_cost*(order_qty-1))
 
 bookprice = cover_price*order_qty
 
